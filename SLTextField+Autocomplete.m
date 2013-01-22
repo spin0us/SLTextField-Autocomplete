@@ -23,7 +23,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        completionMenu = [[UIMenuController alloc] init];
+        completionMenu = [UIMenuController sharedMenuController];
     }
     return self;
 }
